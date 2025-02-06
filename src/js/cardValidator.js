@@ -1,9 +1,8 @@
 export function isValidCard(number) {
   if (number) {
-    
-    if(number == 0) {
+    if (number == 0) {
       return false;
-    };
+    }
 
     const cardNumber = number.toString();
     let sum = 0;

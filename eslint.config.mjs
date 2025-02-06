@@ -16,7 +16,7 @@ export default [
     },
   },
   {
-    ignores: ["dist/*", "coverage/*", "src/js/app.js"],
+    ignores: ["dist/*", "coverage/*", "src/js/app.js", "e2e/*"],
   },
   {
     files: ["**/*.test.js"],
