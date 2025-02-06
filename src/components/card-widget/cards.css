@@ -1,0 +1,49 @@
+.cards {
+    display: block;
+    padding: 0;
+    list-style-type: none;
+}
+
+.card {
+    display: block;
+
+    width: 35px;
+    height: 25px;
+
+    background-size: 39px 39px;
+    background-position: -2px -7px;
+}
+
+.cards li {
+    display: inline-block;
+
+    height: 21px;
+}
+
+.card.cdisabled {
+    filter: grayscale(100%);
+}
+
+.card.visa {
+    background-image: url("../../img/visa.png");
+}
+
+.card.mastercard {
+    background-image: url("../../img/mastercard.png");
+}
+
+.card.amex {
+    background-image: url("../../img/amex.png");
+}
+
+.card.discover {
+    background-image: url("../../img/discover.png");
+}
+
+.card.jcb {
+    background-image: url("../../img/jcb.png");
+}
+
+.card.mir {
+    background-image: url("../../img/mir.png");
+}

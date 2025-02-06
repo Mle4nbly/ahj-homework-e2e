@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Card Numbers</title>
+</head>
+<body>
+    <div class="card-widget">
+        <h3>Check your credit card number</h3>
+        <ul class="cards">
+            <li>
+                <span class="card visa"></span>
+            </li>
+            <li>
+                <span class="card mastercard"></span>
+            </li>
+            <li>
+                <span class="card amex"></span>
+            </li>
+            <li>
+                <span class="card discover"></span>
+            </li>
+            <li>
+                <span class="card jcb"></span>
+            </li>
+            <li>
+                <span class="card mir"></span>
+            </li>
+        </ul>
+
+        <form class="form-inline" novalidate="novalidate">
+            <input class="input-field" type="text" placeholder="Credit card number">
+            <a class="btn-submit">Click to Validate</a>
+        </form>
+        
+        <div class="validation-status">
+            <h3>
+                Luhn Algorithm Check
+                <span class="status"></span>
+            </h3>
+        </div>
+    </div>
+</body>
+</html>
